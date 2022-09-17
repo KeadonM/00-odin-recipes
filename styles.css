@@ -1,6 +1,11 @@
+@font-face {
+    font-family: test;
+    src: url("https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2");
+}
+
 body {
     background-color: lightgray;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: test, Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -13,19 +18,27 @@ h1 {
 h1,
 h2 {
     color: rgb(223, 223, 223);
+    text-indent: 20px;
 }
 
 .head-bg {
     background-color: rgb(156, 156, 156);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    text-indent: 25px;
 }
 
 .std-bg {
     background-color: rgb(179, 179, 179);
-    border-radius: 10px;
-    
+    border-radius: 10px;  
+    padding-bottom: 10px; 
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text {
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .recipe-img {
@@ -37,6 +50,7 @@ h2 {
 }
 
 li {
-    margin-right: 256px;
-    margin-bottom: 8px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 8px;  
 }
