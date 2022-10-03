@@ -1,4 +1,4 @@
-# recipes-odin-00
+# 00-odin-recipes
 This is my first Odin project. 
 
 It's simply an html website with a few links to different recipes.
